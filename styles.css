@@ -733,8 +733,8 @@ body {
 }
 
 .social-links {
-    display: flex;
-    gap: 1rem;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
 }
 
 .social-links a {
@@ -742,8 +742,8 @@ body {
     height: 40px;
     background: var(--dark-card);
     border-radius: 50%;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+    display: flex;
+    justify-content: center;
     color: var(--primary-cyan);
     text-decoration: none;
     transition: var(--transition-smooth);
