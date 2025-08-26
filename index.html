@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIDAMBU - Building the Future, One Pixel at a Time</title>
+    <meta name="description" content="KIDAMBU - Where imagination meets intelligence. We forge digital identities and shape the future of web design.">
+    
+    <!-- Futuristic Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="logo.png">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+  <a href="#" class="logo">
+    <img src="logo.png" alt="Logo">
+  </a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="https://kidambu-ai-craft.lovable.app/" id="ai-link">Generate Website</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="glitch-text">Cafting</span>
+                    <span class="subtitle">digital presence</span>
+                </h1>
+                <p class="hero-description">
+                    Where imagination meets intelligence. We don't just design websites and graphics—we forge identities and shape the digital soul of tomorrow.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        <a href="https://kidambu-ai-craft.lovable.app/">Let's build!</a>
+                    </button>
+                    <button class="btn-secondary" onclick="scrollToSection('portfolio')">
+                        <i class="fas fa-eye"></i>
+                        Our Work
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-elements">
+                    <div class="element element-1"><i class="fas fa-code"></i></div>
+                    <div class="element element-2"><i class="fas fa-palette"></i></div>
+                    <div class="element element-3"><i class="fas fa-brain"></i></div>
+                    <div class="element element-4"><i class="fas fa-shield-alt"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="neon-text">Our Arsenal</span>
+                <span class="subtitle">Our tools for digital creation</span>
+            </h2>
+            
+            <div class="services-grid">
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Superfast, stylish websites built with Next.js, React, and cutting-edge technology that works while you sleep.</p>
+                    <div class="service-tech">
+                        <span>Next.js</span>
+                        <span>React</span>
+                        <span>Node.js</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Immersive visuals and intelligent interfaces that connect, convert, and command attention in the digital realm.</p>
+                    <div class="service-tech">
+                        <span>Figma</span>
+                        <span>Adobe XD</span>
+                        <span>Framer</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>AI Integration</h3>
+                    <p>AI-powered chatbots, smart project estimators, and machine learning solutions that evolve with your business.</p>
+                    <div class="service-tech">
+                        <span>ChatGPT</span>
+                        <span>TensorFlow</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Security & Performance</h3>
+                    <p>Futureproofed security with HTTP/3, SSL encryption, and Cloudflare CDN for lightning-fast performance.</p>
+                    <div class="service-tech">
+                        <span>Cloudflare</span>
+                        <span>SSL</span>
+                        <span>HTTP/3</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Apps</h3>
+                    <p>Progressive Web Apps and native mobile solutions that deliver seamless experiences across all devices.</p>
+                    <div class="service-tech">
+                        <span>React Native</span>
+                        <span>Flutter</span>
+                        <span>PWA</span>
+                    </div>
+                </div>
+
+                <div class="service-card" data-tilt>
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Analytics & SEO</h3>
+                    <p>Data-driven insights, heatmaps, and SEO optimization to dominate search rankings and user engagement.</p>
+                    <div class="service-tech">
+                        <span>Google Analytics</span>
+                        <span>SEO</span>
+                        <span>Hotjar</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="neon-text">Portfolio</span>
+                <span class="subtitle">Witness the Future We've Built</span>
+            </h2>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="app">Apps</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="web2.jpeg" alt="E-commerce Platform">
+                        <div class="portfolio-overlay">
+                            <h3>E-commerce Platform</h3>
+                            <p>AI-powered shopping experience</p>
+                            <div class="portfolio-links">
+                                <a href="web2.jpeg" class="portfolio-link"><i class="fas fa-eye"></i></a>
+                                <a href="https://kidambu-ai-craft.lovable.app/" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-image">
+                        <img src="app1.jpeg" alt="Fitness App">
+                        <div class="portfolio-overlay">
+                            <h3>Fitness Tracker App</h3>
+                            <p>Health monitoring with AI insights</p>
+                            <div class="portfolio-links">
+                                <a href="app1.jpeg" class="portfolio-link"><i class="fas fa-eye"></i></a>
+                                <a href="https://kidambu-ai-craft.lovable.app/" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <img src="design1.jpeg" alt="Brand Identity">
+                        <div class="portfolio-overlay">
+                            <h3>Tech Startup Branding</h3>
+                            <p>Complete visual identity system</p>
+                            <div class="portfolio-links">
+                                <a href="design1.jpeg" class="portfolio-link"><i class="fas fa-eye"></i></a>
+                                <a href="https://kidambu-ai-craft.lovable.app/" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="app">
+                    <div class="portfolio-image">
+                        <img src="app2.jpeg">
+                        <div class="portfolio-overlay">
+                            <h3>Mood Journal App</h3>
+                            <p>track-daily-mood</p>
+                            <div class="portfolio-links">
+                                <a href="app2.jpeg" class="portfolio-link"><i class="fas fa-eye"></i></a>
+                                <a href="https://kidambu-ai-craft.lovable.app/" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item" data-category="design">
+                    <div class="portfolio-image">
+                        <img src="design2.jpeg">
+                        <div class="portfolio-overlay">
+                            <h3>Logo Designing</h3>
+                            <p>brand identity</p>
+                            <div class="portfolio-links">
+                                <a href="design2.jpeg" class="portfolio-link"><i class="fas fa-eye"></i></a>
+                                <a href="https://kidambu-ai-craft.lovable.app/" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="portfolio-item" data-category="web">
+                    <div class="portfolio-image">
+                        <img src="web1.jpeg">
+                        <div class="portfolio-overlay">
+                            <h3>Analytics Dashboard</h3>
+                            <p>Real-time data visualization</p>
+                            <div class="portfolio-links">
+                                <a href="web1.jpeg" class="portfolio-link"><i class="fas fa-eye"></i></a>
+                                <a href="https://kidambu-ai-craft.lovable.app/" class="portfolio-link"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">
+                        <span class="neon-text">About KIDAMBU</span>
+                        <span class="subtitle">Commanding the Digital Force</span>
+                    </h2>
+                    <p>
+                        You're not hiring a service. You're commanding a force. At KIDAMBU, we weaponize creativity 
+                        to build what hasn't been built. Every color, every line, and every line of code is a reflection 
+                        of visionary excellence backed by relentless passion.
+                    </p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="150">0</span>
+                            <span class="stat-label">Projects Delivered</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="98">0</span>
+                            <span class="stat-label">Client Satisfaction</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="5">0</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="tech-stack">
+                        <div class="tech-item"><i class="fab fa-react"></i></div>
+                        <div class="tech-item"><i class="fab fa-node-js"></i></div>
+                        <div class="tech-item"><i class="fab fa-python"></i></div>
+                        <div class="tech-item"><i class="fab fa-aws"></i></div>
+                        <div class="tech-item"><i class="fab fa-docker"></i></div>
+                        <div class="tech-item"><i class="fab fa-figma"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="neon-text">Start Your Mission</span>
+                <span class="subtitle">Ready to Build the Impossible?</span>
+            </h2>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>kidambuclement2020@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+254 745027997</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Digital Realm, Cyberspace</p>
+                        </div>
+                    </div>
+                </div>
+
+
+<!-- Testimonial Carousel -->
+<div class="testimonial-container">
+  <div class="slides">
+    <div class="testimonial-slide">
+      <div class="testimonial-profile">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client">
+      </div>
+      <div class="testimonial-text">
+        <p>"KIDAMBU created a stunning website for my business. Their eye for design and clean coding is top-notch!"</p>
+        <h3>John Smith</h3>
+        <span>Entrepreneur (USA)</span>
+      </div>
+    </div>
+
+    <div class="testimonial-slide">
+      <div class="testimonial-profile">
+        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Client">
+      </div>
+      <div class="testimonial-text">
+        <p>"The graphics and branding exceeded my expectations. Highly recommend for creative digital work!"</p>
+        <h3>Amina Yusuf</h3>
+        <span>Fashion Designer (Kenya)</span>
+      </div>
+    </div>
+
+    <div class="testimonial-slide">
+      <div class="testimonial-profile">
+        <img src="https://randomuser.me/api/portraits/men/15.jpg" alt="Client">
+      </div>
+      <div class="testimonial-text">
+        <p>"Professional, reliable, and very creative. They transformed my ideas into a powerful online presence."</p>
+        <h3>Wei Chen</h3>
+        <span>Startup Founder (China)</span>
+      </div>
+    </div>
+
+    <div class="testimonial-slide">
+      <div class="testimonial-profile">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client">
+      </div>
+      <div class="testimonial-text">
+        <p>"The team is amazing at both design and development. They brought my project to life beautifully."</p>
+        <h3>Maria Lopez</h3>
+        <span>Photographer (Spain)</span>
+      </div>
+    </div>
+
+    <div class="testimonial-slide">
+      <div class="testimonial-profile">
+        <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Client">
+      </div>
+      <div class="testimonial-text">
+        <p>"Their designs are modern and very user-friendly. I love the clean layout and responsiveness."</p>
+        <h3>Kwame Boateng</h3>
+        <span>Software Engineer (Ghana)</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <div class="prev"><i class="fas fa-chevron-left"></i></div>
+  <div class="next"><i class="fas fa-chevron-right"></i></div>
+</div>
+
+<!-- Dots -->
+<div class="dots"></div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span>Reach us today</span>
+                    </div>
+                    <p>Building the future, one pixel at a time.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                          <a href="https://www.tiktok.com/@kidambu?t=ZM-8yGOb65DNkU&r=1" target="_blank" title="TikTok"><i class="fab fa-tiktok" style="font-size: 24px;"></i></a>   <a href="https://www.facebook.com/clement.kidambu" target="_blank" title="Facebook"><i class="fab fa-facebook" style="font-size: 24px;"></i></a>
+                          <a href="https://www.instagram.com/trclem25?igsh=NjhodXpqMXJhcGhu" target="blank" title="Instagram"><i class="fab fa-instagram" style="font-size: 24px;"></i></a>
+                            <!-- Email Button -->
+                           <a href="mailto:kidambuclement2020@gmail.com" title="Send Email"><i class="fas fa-envelope" style="font-size: 24px;"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="https://kidambu-ai-craft.lovable.app/">Web Development</a></li>
+                        <li><a href="https://kidambu-ai-craft.lovable.app/">UI/UX Design</a></li>
+                        <li><a href="https://kidambu-ai-craft.lovable.app/">AI Integration</a></li>
+                        <li><a href="https://kidambu-ai-craft.lovable.app/">Mobile Apps</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 kidambu. All rights reserved. Powered by the future.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- WhatsApp Floating Icon -->
+    <div class="whatsapp-icon">
+        <a href="https://wa.me/message/PYT4HPNBYOTYO1"><i class="fab fa-whatsapp"></i></a>
+    </div>
+
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>
