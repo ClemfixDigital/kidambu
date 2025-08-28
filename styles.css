@@ -62,7 +62,7 @@ a{
 }
 /* Logo styling */
 .logo img {
-  height: 40px;   /* adjust size of logo */
+  height: 20px;   /* adjust size of logo */
   width: auto;    /* keep aspect ratio */
   object-fit: contain;
   display: block;
